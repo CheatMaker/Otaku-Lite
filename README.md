@@ -1,6 +1,6 @@
-# Phantom
+# Otaku
 
-Fully C++ Minecraft injection client for linux. Mapping code is based off of
+Fully C++ Minecraft injection client. Mapping code is based off of
 [UDP](https://github.com/UnknownDetectionParty/UDP-CPP), and [Dear ImGui](https://github.com/ocornut/imgui) is used
 for the window, but the cheats and stuff are my own.
 
