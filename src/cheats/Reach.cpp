@@ -14,7 +14,7 @@ Reach::Reach(Phantom *phantom) : Cheat("Reach", "Extends your hit range") {
 }
 
 void Reach::renderSettings() {
-    ImGui::SliderFloat("Hit Distance", &reach, 3, 6, "%.2f");
+    ImGui::SliderFloat("Hit Distance", &reach, 1, 15, "%.2f");
 }
 
 // This is basically a copy of how minecraft calculates what block your looking at, but with modified reach values.
