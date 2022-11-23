@@ -8,8 +8,8 @@
 #include <net/minecraft/client/multiplayer/WorldClient.h>
 #include <imgui.h>
 
-Reach::Reach(Phantom *phantom) : Cheat("Reach", "Long arm hack") {
-    reach = 3.2;
+Reach::Reach(Phantom *phantom) : Cheat("Reach", "Extends your hit range") {
+    reach = 3.3;
     this->phantom = phantom;
 }
 
