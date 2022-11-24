@@ -5,10 +5,6 @@ Timer::Timer() : Cheat("Timer",  "Increase the ticks per second") {
 }
 
 
-const char* Timer::getModuleName() {
-	return ("Timer");
-}
-
 void Timer::run(C_GameMode* gm) {
 	*g_Data.getClientInstance()->minecraft->timer = static_cast<float>(this->timer);
 }
