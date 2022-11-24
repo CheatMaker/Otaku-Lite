@@ -8,5 +8,5 @@ Sprint::Sprint() : Cheat("Sprint", "Like ToggleSprint") {}
 
 void Sprint::run(Minecraft *mc) {
     //This does NOT work 
-    //mc->IsSprinting(True);
+    mc->KeyBinding.setKeyBindState(mc.gameSettings.keyBindSprint.getKeyCode(), true);
 }
