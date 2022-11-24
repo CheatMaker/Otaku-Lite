@@ -19,6 +19,7 @@
 #include "cheats/HitDelayFix.h"
 #include "cheats/Speed.h"
 #include "cheats/Sprint.h"
+#include "cheats/Step.h"
 
 #include "ui/KeyManager.h"
 #include "cheats/STap.h"
@@ -49,6 +50,7 @@ Phantom::Phantom() {
     cheats.push_back(new STap(this));
     cheats.push_back(new Speed(this));
     cheats.push_back(new Sprint(this)
+    cheats.push_back(new Step(this)
 }
 
 void Phantom::runClient() {
