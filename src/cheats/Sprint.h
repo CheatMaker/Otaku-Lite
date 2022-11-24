@@ -8,7 +8,7 @@
 #include "Cheat.h"
 
 class EntityPlayer;
-class AimAssist : public Cheat {
+class Sprint : public Cheat {
 public:
     explicit Sprint(Phantom *phantom);
 
