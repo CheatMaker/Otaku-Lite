@@ -4,7 +4,7 @@ Step::Step (Minecraft *mc) {
     stepHeight = 1;
 }
 
-void Step::Run(GameMode* GM) {
+void Step::Run() {
 	*player->stepHeight() = stepHeight;
 }
 
