@@ -1,6 +1,6 @@
 #include "Step.h"
 
-Step::Step (Minecraft *mc) {
+Step::Step (Phantom *Phantom) : Cheat("Step", "Modifies Step Height") {
     stepHeight = 1;
 }
 
