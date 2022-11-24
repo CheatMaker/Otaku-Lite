@@ -8,6 +8,7 @@ GameSettings::GameSettings(Phantom *phantom, jobject gameSettings) : AbstractCla
     this->gameSettings = gameSettings;
     fdKeyBindAttack = getFieldID("keyBindAttack");
     fdKeyBindBack = getFieldID("keyBindBack");
+    fdKeyBindSprint = getFieldID("keyBindSprint");
 }
 
 jobject GameSettings::getKeyBindAttack() {
