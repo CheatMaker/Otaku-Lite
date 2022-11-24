@@ -1,5 +1,5 @@
 #include "net/minecraft/entity/player/PlayerCapabilities.h"
-Speed::Speed(Phantom *phantom) : Cheat("AimAssist", "Aims for u, but smoooothly.") {
+Speed::Speed(Phantom *phantom) : Cheat("Speed", "Makes you walk faster.") {
     this->phantom = phantom;
 
     float float_t69 = 1;
