@@ -8,7 +8,7 @@ We also now have a [discord server](https://discord.gg/zmm2CCgZt4)
 
 ### Different MC Versions
 
-By default, Phantom is configured to build for version 1.8.9 forge. If you want other versions, edit the `Mapping.cpp` 
+By default, Otaku is configured to build for version 1.8.9 forge. If you want other versions, edit the `Mapping.cpp` 
 file in the `src/mappings` directory.
 
 ### Building
