@@ -3,7 +3,7 @@
 //
 
 #include "Sprint.h"
-#include "net.minecraft.client.settings.KeyBinding"
+#include "net/minecraft/client/settings/KeyBinding"
 
 Sprint::Sprint() : Cheat("Sprint", "Like ToggleSprint") {}
 
