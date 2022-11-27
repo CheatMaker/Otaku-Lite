@@ -9,7 +9,7 @@ FastPlace::FastPlace() : Cheat("Fast Place", "Places blocks faster & stuff") {
 }
 
 void FastPlace::run(Minecraft *mc) {
-    mc->setRightClickDelayTimer(this->delay);
+    mc->setRightClickDelayTimer(delay);
 }
 
 void Speed::renderSettings() {
